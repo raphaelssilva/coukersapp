@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<decorators defaultdir="/WEB-INF/decorator">
+ 	<decorator name="home" page="home.jsp">
+        <pattern>/start/*</pattern>
+    </decorator>
+    <decorator name="main" page="main.jsp">
+        <pattern>*</pattern>
+    </decorator>
+    <decorator name="menu" page="menu.jsp"/>
+    <decorator name="footer" page="footer.jsp"/>
+    <decorator name="header" page="header.jsp"/>
+</decorators>
